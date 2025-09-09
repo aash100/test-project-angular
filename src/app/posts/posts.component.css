@@ -1,0 +1,17 @@
+.posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 10px;
+}
+
+.post-card {
+  flex: calc(33.333% - 16px); /* 3 per row, minus gap */
+  /* box-sizing: border-box;
+  margin-bottom: 16px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px; */
+  /* Optional: add shadow or border */
+}

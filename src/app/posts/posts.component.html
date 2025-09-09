@@ -1,0 +1,7 @@
+<div class="posts">
+  <div class="post-card" *ngFor="let post of ($posts | async)">
+    <h2><span (click)="getComments(post.id)">{{post.id}}</span> {{post.title}} </h2>
+    <br>
+    <div>{{post.body}}</div>
+  </div>
+</div>
